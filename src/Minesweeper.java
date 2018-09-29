@@ -13,12 +13,9 @@ import javalib.worldimages.*;
  * opens all cells upon loss
  * open unflagged neighbors when clicking on a cell whose surrounding flags = surrounding mines
  * restart the game by pressing "R" during your current game
- * restart the game automatically upon loss if you uncomment line 92
  * 
  */
 
-// NOTE: fields of fields are only used when the exact, specific type of the field
-// whose field you're accessing is known
 
 // Represents a game of Minesweeper
 class Game extends World {
